@@ -1,0 +1,55 @@
+.quiz {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 4rem 2rem;
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .quit {
+    background-color: red;
+  }
+  
+  .prev {
+    background-color: blue;
+  }
+  
+  .next {
+    background-color: green;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    max-width: 30rem;
+    margin: 2rem ;
+  }
+  
+  .option {
+    padding: 0.70rem;
+    background-color: #4ab7ea;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .action {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
